@@ -1,4 +1,4 @@
-# Analizador de Bonos – ShinyApp (AL29/AL30/AL35/AL41/GD29/GD30/GD35/GD41)
+# Analizador de Bonos (AL29/AL30/AL35/AL41/GD29/GD30/GD35/GD41)
 
 Este repositorio contiene una **aplicación Shiny** que:
 - Explora **cotizaciones históricas** de bonos soberanos ARS (*ALxx*, *GDxx*).
@@ -69,17 +69,17 @@ install.packages(c(
 
 ### Local
 ```r
-shiny::runApp()   # estando en la raíz del repo
+shiny::runApp()  
 ```
 
-### Desde GitHub (evaluación docente)
+### Desde GitHub
 ```r
 shiny::runGitHub("trabajo-final-sebafebre", "myvdd-2025-unr")
 ```
 
 ---
 
-## 🧠 Lógica y flujo del `app.R` (resumen técnico)
+## 🧠 Lógica y flujo del `app.R`
 
 1. **Funciones auxiliares**
    - `a_numero(x)`: convierte texto a numérico eliminando comas de miles.
