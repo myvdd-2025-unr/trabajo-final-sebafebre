@@ -11,7 +11,7 @@ Este repositorio contiene una **aplicación Shiny** que:
 ## 📂 Estructura del repo
 
 ```
-/ (raíz del repo)
+/ REPOSITORIO
 ├─ app.R
 ├─ README.md
 └─ data/
